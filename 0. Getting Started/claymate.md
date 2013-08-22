@@ -117,9 +117,15 @@ The end result of running this subcommand is a directory structure like the foll
 
 ### Options
 
-This subcommand has no options at this time.
-
 > **Note:** If you wish to install gumby as a bower module without the extra processing, all you have to do is `$ bower install gumby`.
+
+#### quiet
+
+`--quiet, -q`
+
+If you do not want to see any output from claymate, pass this option.
+
+> **Default:** Off.
 
 ## Subcommand: Build
 
@@ -193,6 +199,15 @@ No argument needs to be passed to this flag. Its presence enables the creation o
 	$ claymate build --buildSourceMap
 
 > **Default:** Don't build a sourcemap.
+
+
+#### quiet
+
+`--quiet, -q`
+
+Sometimes we need to use an option just once. Passing this flag will supress the helpful hint about the gumby.json file.
+
+> **Default:** Off.
 
 ## I'm a developer, and I have an itch to scratch
 
